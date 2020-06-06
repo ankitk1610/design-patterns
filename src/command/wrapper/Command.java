@@ -1,4 +1,4 @@
-package command;
+package command.wrapper;
 
 public interface Command {
 
