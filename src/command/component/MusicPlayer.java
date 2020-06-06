@@ -2,19 +2,26 @@ package command.component;
 
 public class MusicPlayer {
 
+	String info;
+
+	public MusicPlayer(String info) {
+		super();
+		this.info = info;
+	}
+
 	public void play() {
-		System.out.println("Music playing.");
+		System.out.println(info + " Music playing..");
 	}
 
 	public void pause() {
-		System.out.println("Music paused.");
+		System.out.println(info + " Music paused.");
 	}
 
 	public void playNext() {
-		System.out.println("Playing next song..");
+		System.out.println(info + " Playing next song..");
 	}
 
 	public void playPrevious() {
-		System.out.println("Playing previous song..");
+		System.out.println(info + " Playing previous song..");
 	}
 }

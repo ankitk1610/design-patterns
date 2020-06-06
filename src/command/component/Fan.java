@@ -1,12 +1,19 @@
 package command.component;
 
 public class Fan {
-	
+
+	String info;
+
+	public Fan(String info) {
+		super();
+		this.info = info;
+	}
+
 	public void switchOn() {
-		System.out.println("Fan switched on.");
+		System.out.println(info + " Fan switched on..");
 	}
 
 	public void switchOff() {
-		System.out.println("Fan switched off.");
+		System.out.println(info + " Fan switched off..");
 	}
 }

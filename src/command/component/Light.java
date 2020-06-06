@@ -2,12 +2,19 @@ package command.component;
 
 public class Light {
 
+	String info;
+
+	public Light(String info) {
+		super();
+		this.info = info;
+	}
+
 	public void swtichOn() {
-		System.out.println("Light Switched On");
+		System.out.println(info + " Light Switched On..");
 	}
 
 	public void swtichOff() {
-		System.out.println("Light Switched Off");
+		System.out.println(info + " Light Switched Off..");
 	}
 
 }
