@@ -1,4 +1,4 @@
-package command.component;
+package components;
 
 public class Light {
 

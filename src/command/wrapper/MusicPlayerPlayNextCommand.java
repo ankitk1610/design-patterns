@@ -1,6 +1,6 @@
 package command.wrapper;
 
-import command.component.MusicPlayer;
+import components.MusicPlayer;
 
 public class MusicPlayerPlayNextCommand implements Command {
 	

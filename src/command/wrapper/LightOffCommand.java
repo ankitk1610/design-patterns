@@ -1,6 +1,6 @@
 package command.wrapper;
 
-import command.component.Light;
+import components.Light;
 
 public class LightOffCommand implements Command {
 

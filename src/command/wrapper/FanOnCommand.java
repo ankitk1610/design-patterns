@@ -1,6 +1,6 @@
 package command.wrapper;
 
-import command.component.Fan;
+import components.Fan;
 
 public class FanOnCommand implements Command {
 

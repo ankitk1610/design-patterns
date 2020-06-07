@@ -3,9 +3,6 @@ package command;
 import java.util.ArrayList;
 import java.util.List;
 
-import command.component.Fan;
-import command.component.Light;
-import command.component.MusicPlayer;
 import command.wrapper.Command;
 import command.wrapper.FanOffCommand;
 import command.wrapper.FanOnCommand;
@@ -15,6 +12,9 @@ import command.wrapper.MusicPlayerPauseCommand;
 import command.wrapper.MusicPlayerPlayCommand;
 import command.wrapper.MusicPlayerPlayNextCommand;
 import command.wrapper.MusicPlayerPlayPreviousCommand;
+import components.Fan;
+import components.Light;
+import components.MusicPlayer;
 
 public class RemoteController {
 

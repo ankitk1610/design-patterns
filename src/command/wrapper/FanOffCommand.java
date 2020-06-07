@@ -1,6 +1,6 @@
 package command.wrapper;
 
-import command.component.Fan;
+import components.Fan;
 
 public class FanOffCommand implements Command {
 
